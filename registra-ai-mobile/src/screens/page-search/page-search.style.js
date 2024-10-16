@@ -6,10 +6,7 @@ export const styles = {
         flex: 1,
         justifyContent: "space-between"
     },
-    containerHeader: {
-        alignItems: "center",
-        backgroundColor: COLOR.primary_color
-    },
+
     containerMain: {
         backgroundColor: '#fff',
         borderRadius: 8,
@@ -56,29 +53,13 @@ export const styles = {
         gap: 20,
         marginBottom: 5
     },
-    containerFooter: {
-        width: "100%",
-        height: 80,
-        alignItems: "center",
-        backgroundColor: COLOR.primary_color,
-        marginTop: 5
-    },
-    logo: {
-        width: 200,
-        height: 80,
-        resizeMode: 'contain',
-        marginTop: 30,
-        padding: 10,
-        marginBottom: 5
-
-    },
 
 
     text: {
         color: COLOR.primary_color,
         fontSize: FONT_SIZE.sm,
         fontFamily: 'Poppins_600SemiBold',
-        marginBottom: -5
+        marginBottom: -1
     }
 
 }
